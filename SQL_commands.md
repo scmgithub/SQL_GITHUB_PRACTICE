@@ -1,13 +1,13 @@
 #SQL and GitHub practice
 
 To create receipts table:
-create table receipts (id INTEGER PRIMARY KEY, store TEXT, item TEXT, number_of_items INTEGER, price REAL, buy_date TEXT);
+```create table receipts (id INTEGER PRIMARY KEY, store TEXT, item TEXT, number_of_items INTEGER, price REAL, buy_date TEXT);```
 
 All the attributes from all the receipts
-select * from receipts;
+```select * from receipts;```
 
 The store and item names from all the receipts
-Q2**answer**
+```select store, item from receipts;```
 
 All the attributes from all purchases made at Toys R Us
 Q3**answer**

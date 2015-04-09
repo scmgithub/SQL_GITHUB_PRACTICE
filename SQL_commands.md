@@ -16,7 +16,7 @@ The item name of each purchase made at Strand.
 ```select item from receipts where store = "Strand";```
 
 The total number of items Peter purchased
-Q5**answer**
+```select sum(number_of_items) from receipts```
 
 The total number of items purchased at Sears
 Q6**answer**

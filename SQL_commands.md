@@ -22,7 +22,7 @@ The total number of items purchased at Sears
 ```select count(number_of_items) from receipts where store="Sears";```
 
 All the attributes of receipts where Peter bought multiple items.
-Q7**answer**
+```select * from receipts where number_of_items > 1;```
 
 The average number of items purchased on a trip to JC Penny
 Q8**answer**

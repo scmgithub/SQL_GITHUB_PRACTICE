@@ -25,7 +25,7 @@ All the attributes of receipts where Peter bought multiple items.
 ```select * from receipts where number_of_items > 1;```
 
 The average number of items purchased on a trip to JC Penny
-Q8**answer**
+```select avg(number_of_items) from receipts where store = "JC Penny";```
 
 Great, now add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
 Q9**answer**

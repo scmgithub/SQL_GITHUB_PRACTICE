@@ -28,4 +28,4 @@ The average number of items purchased on a trip to JC Penny
 ```select avg(number_of_items) from receipts where store = "JC Penny";```
 
 Great, now add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
-Q9**answer**
+```insert into receipts (store, item, number_of_items, price, buy_date) values ("Schnapps Haus", "Heatstreet Maple Bourbon", 1, 40.99, "July 4 2014");```

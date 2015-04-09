@@ -10,7 +10,7 @@ The store and item names from all the receipts
 ```select store, item from receipts;```
 
 All the attributes from all purchases made at Toys R Us
-Q3**answer**
+```select * from receipts where store = "Toys R Us";```
 
 The item name of each purchase made at Strand.
 Q4**answer**
